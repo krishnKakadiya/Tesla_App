@@ -52,6 +52,9 @@ const Wrap = styled.div`
     justify-content:space-between; /*vertical*/
     align-item:center;/*horizontal*/
 
+    @media (max-width: 768px) {
+    background-size: cover;
+  }
 
 `
 const ItemText = styled.div`
