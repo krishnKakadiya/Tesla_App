@@ -52,9 +52,29 @@ const Wrap = styled.div`
     justify-content:space-between; /*vertical*/
     align-item:center;/*horizontal*/
 
-    @media (max-width: 768px) {
-    background-size: cover;
+
+  
+  ${'' /* @media (min-width: 350px) {
+    max-width: 500px;
   }
+  @media (min-width: 475px) {
+    max-width: 600px;
+  }
+  @media (min-width: 576px) {
+    max-width: 1500px;
+  }
+
+  @media (min-width: 768px) {
+    max-width: 1800px;
+  }
+
+  @media (min-width: 992px) {
+    max-width: 2000px;
+  }
+
+  @media (min-width: 1200px) {
+    max-width: 2400px;
+  } */}
 
 `
 const ItemText = styled.div`
